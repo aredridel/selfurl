@@ -1,0 +1,37 @@
+{
+  "name": "selfurl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/selfurl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredridel/selfurl/issues"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "rules": {
+      "valid-typeof": "error",
+      "no-unused-vars": "error",
+      "no-undef": "error"
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    }
+  },
+  "homepage": "https://github.com/aredridel/selfurl#readme",
+  "devDependencies": {
+    "mock-req": "^0.2.0"
+  }
+}
